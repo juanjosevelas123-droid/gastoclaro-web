@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gastos - GastoClaro</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+  <header class="cabecera-sitio">
+    <div class="identidad">
+      <img src="../img/logo.jpeg" alt="Logo" class="logo-cabecera">
+      <span>GastoClaro</span>
+    </div>
+    <nav class="navegacion">
+      <ul>
+        <li><a href="inicio.html">Resumen</a></li>
+        <li><a href="gastos.html" class="actual">Gastos</a></li>
+        <li><a href="categorias.html">Categorías</a></li>
+        <li><a href="#" id="salirBtn" class="btn-salir">Cerrar sesión</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="cuerpo-invertido">
+    <aside class="columna-lateral">
+      <h3>Criterio de registro</h3>
+      <ul>
+        <li>Indica fecha exacta del movimiento.</li>
+        <li>Usa la categoría que mejor describa el gasto.</li>
+        <li>Conserva comprobantes importantes.</li>
+      </ul>
+    </aside>
+
+    <main class="area-principal">
+      <section>
+        <h1>Detalle de gastos</h1>
+        <table class="tabla-movimientos">
+          <thead>
+            <tr>
+              <th>Fecha</th>
+              <th>Concepto</th>
+              <th>Categoría</th>
+              <th>Monto (Bs)</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>24/11/2026</td>
+              <td>Compras en mercado y abarrotes</td>
+              <td>Alimentación</td>
+              <td>215.00</td>
+            </tr>
+            <tr>
+              <td>25/11/2026</td>
+              <td>Pasajes y tarjeta de transporte</td>
+              <td>Transporte</td>
+              <td>40.00</td>
+            </tr>
+            <tr>
+              <td>25/11/2026</td>
+              <td>Componentes y materiales de práctica</td>
+              <td>Estudio</td>
+              <td>85.50</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+    </main>
+  </div>
+
+  <footer class="pie-sitio">
+    <p>GastoClaro · PRACTICA DISEÑO WEB</p>
+  </footer>
+
+  <script src="../js/scrip.js"></script>
+</body>
+</html>

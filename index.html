@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Acceso - GastoClaro</title>
+  <link rel="stylesheet" href="css/estilos.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body class="pantalla-acceso">
+  <main class="marco-acceso">
+    <section class="panel-acceso">
+      <header class="cabecera-acceso">
+        <img src="img/logo.jpeg" alt="Logo GastoClaro" class="logo-acceso">
+        <h1>GastoClaro</h1>
+        <p>Cuaderno de gastos y presupuesto mensual</p>
+      </header>
+
+      <form id="formLogin" novalidate>
+        <div class="grupo-entrada">
+          <label for="correo">Correo o usuario</label>
+          <input type="text" id="correo" placeholder="juan@gastoclaro.bo">
+        </div>
+
+        <div class="grupo-entrada">
+          <label for="clave">Contraseña</label>
+          <input type="password" id="clave" placeholder="Escribe tu contraseña">
+        </div>
+
+        <p id="errorLogin" class="aviso-error"></p>
+
+        <button type="submit" class="btn-acceder">Entrar al sistema</button>
+      </form>
+
+      <footer class="nota-acceso">
+        <small>Usuario: juan@gastoclaro.bo · Clave: clave2026</small>
+      </footer>
+    </section>
+  </main>
+
+  <script src="js/scrip.js"></script>
+</body>
+</html>
